@@ -1,6 +1,8 @@
-a = 100; i = 0
-print("Even numbers:\n")
-while i < a:
+import array as ar
+i = 0; a=ar.array;
+while i < 100:
     if (i % 2 == 0):
-        print(i)
-    i+=1
+        a=ar.array('i',[i])
+    else:
+        a=ar.array('i',a[i])
+    i=i+1
